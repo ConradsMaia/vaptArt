@@ -1,0 +1,161 @@
+.topo li{position: relative;
+    list-style: none;
+    border: none;
+    font-family: bebas neue;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;   
+    margin: 0px;
+}
+
+
+#logova{
+    position:relative;
+  
+
+}
+header{position: relative;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #522570;
+  height: 30px;
+ 
+ 
+ 
+ 
+ 
+}
+.lis{position: relative;
+    top:61px;
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+    background-color: rgb(201, 28, 158);
+    height: 0px;
+    cursor: pointer;
+    
+    
+   
+}
+.pos{position: relative;
+    top: -30px;
+    
+    
+
+}
+button{background-color: transparent;
+border-radius: 5px;}
+.lis:hover{position: relative;
+    top:61px;
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+    background-color: rgb(158, 25, 125);
+    height: 0px;
+    font-size: 21px;
+    box-shadow:2px 5px rgb(25, 5, 27);
+    cursor: pointer;
+}
+button{position: relative;
+top:87px;
+left: 67px;
+display: none;
+
+}
+  .rodape{
+    padding: 15px;
+    }
+   #rd{padding: 20px;
+    box-shadow: 0px -2px 10px  rgb(0, 0, 0);
+    background-color:#522570 ;
+   }
+    .rede {
+       list-style: none;
+        display: flex;
+       justify-content: flex-end;
+       margin: 0;
+      
+       
+    }
+    .rodape:hover{
+        
+        background-color: #3b1a52;
+        background-position:top;
+        border-radius: 10px;
+        
+        }
+     
+  
+        button:focus ~ .topo li{
+            opacity: 100%;}
+
+   @media screen and (max-width:800px) {
+
+   
+   
+    button{position: relative;
+        top:86px;
+        left: 63px;
+        display:block;
+        opacity: 50%;
+        border: none;
+        margin: 0px;
+    }
+
+    button:hover{position: relative;
+        top:86px;
+        left: 63px;
+        display:block;
+        border: none;
+        opacity: 100%;
+        margin: 0px;
+        }
+    
+    .lis{position: relative;
+        top:62px;
+        border-end-start-radius: 10px;
+        border-end-end-radius: 10px;
+        background-color: rgb(201, 28, 158);
+        height: 0px;
+    }
+        .topo li{position: relative;
+            list-style: none;
+            border: none;
+            font-family: bebas neue;
+            display:  block;
+            text-align: center;
+            padding: 15px;
+            color: rgb(255, 255, 255);
+            font-size: 15px; 
+            padding-top: 20px; 
+            
+        }
+        .lis{position: relative;
+            top:82px;
+            border-end-start-radius: 0px;
+            border-end-end-radius: 0px;
+            background-color: rgb(201, 28, 158);
+            height: 0px;
+            opacity: 80%;
+            height: 0;
+            opacity: 0%;
+            
+        }        
+        .lis:hover{position: relative;
+            top:82px;
+            border-end-start-radius: 0px;
+            border-end-end-radius: 0px;
+            background-color: rgb(110, 16, 87);
+            height: 0px;
+            box-shadow:none;
+            font-size: 15px;
+            opacity: 0%;
+        }
+       
+    
+    }
+body{
+    margin: 0;
+}

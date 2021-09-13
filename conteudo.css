@@ -1,0 +1,64 @@
+#fala1, #fala2{
+    font-family: bebas neue;
+    text-align: center;
+}
+#fala1{
+    font-size: 20px;
+ color: rgb(126, 28, 52);
+    
+}
+#bb{ position: relative;
+    justify-content: space-between;
+display: flex;
+text-align: center;
+list-style: none;
+color: rgb(88, 21, 55);
+width: 600px;
+border-radius: 20px;
+padding: 15px;
+
+}
+.m{
+    font-family:bebas kai;
+}
+#um{position: relative;
+    width: 33%;
+    border-radius: 20px;
+    padding-top: 20px;
+    right: 10px;
+    
+
+}
+#dois{
+    width: 33%;
+    border-radius: 20px;
+    padding-top: 20px;
+    
+}
+#tres{position: relative;
+    width: 33%;
+    border-radius: 20px;
+    padding-top: 20px;
+    left: 10px;
+    
+}
+.posit{position: relative;
+    left: 25%;
+background-color: gold;
+}
+
+#meio{
+    width: 100%;
+    
+    
+    
+    
+}
+.img-gods{
+    width: 100%;
+   
+}
+#quems{
+    width: 100%;
+}
+

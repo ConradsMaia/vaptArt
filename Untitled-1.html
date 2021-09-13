@@ -1,0 +1,82 @@
+<!doctype htm>
+<htm>
+
+    <head>
+        <meta lang="pt-br">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="menus.css">
+        <link rel="stylesheet" type="text/css" href="conteudo.css">
+        <title>Vapt Art</title>
+    </head>
+
+    <body>
+
+        <header>
+
+            <img id="logova" src="logova.png" width="118px" height="118px">
+
+            <nav>
+                <button><img src="menu.png" width="30px" height="30px"></button>
+                <ul class="topo">
+                    <li class="lis">
+                        <p class="pos">quem somos</p>
+                    </li>
+                    <li class="lis">
+                        <p class="pos">serviços</p>
+                    </li>
+                    <li class="lis">
+                        <p class="pos">pacotes</p>
+                    </li>
+                    <li class="lis">
+                        <p class="pos">briefing</p>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <img id="meio" src="vap.png">
+        <img id="quems"src="qm.png">
+        <div>
+            <ul>
+                <li></li>
+            </ul>
+        </div>
+        <!-- org-->
+        <div id="dica">
+        <img id="meiop" onclick="trocar()" alt="hindu" class="img-gods expand" src="vap1.png">
+        </div>
+        <!-- org-->
+
+        <footer id="rd" >
+            <ul class="rede">
+                <li class="p"><img class="rodape" src="face.png" width="30px" height="30px"></li>
+                <li class="p"><img class="rodape" src="insta.png" width="30px" height="30px"></li>
+                <li class="p"><img class="rodape" src="whats.png" width="30px" height="30px"></li>
+            </ul>
+        </footer>
+        <script>
+          var currentImgIndex=1;
+var ImgSrcArray = [ //caminho das suas imgs aqui
+'vap1.png',
+'vap2.png',
+'vap3.png',
+'vap4.png',
+'vap5.png',
+];
+
+function trocar(){
+
+  if(currentImgIndex == ImgSrcArray.length) //reseta quando o contatador for igual ao tamanho da array e volta a 1° img
+  {
+    currentImgIndex=0;
+  }
+  document.getElementById("meiop").src=ImgSrcArray[currentImgIndex]; //altera a img do elemento "agni" de acordo com o indice
+    currentImgIndex++; // incrementa a nossa referencia
+
+}
+    
+
+        </script>
+    </body>
+</htm>
